@@ -8,11 +8,6 @@ job("Environment_Variables_DSL") {
 echo "Current build is accessible at - 		\$BUILD_URL"
 echo "Java library is available at - 		\$JAVA_HOME"
 echo "Jenkins workspace is available at - 	\$WORKSPACE"
-
-echo "##################################################"
-
-echo "System Admin Name is - 				\$SYSTEM_ADMIN_NAME"
-echo "System Admin Email is - 				\$SYSTEM_ADMIN_EMAIL"""")
 	}
 	wrappers {
 		timestamps()
