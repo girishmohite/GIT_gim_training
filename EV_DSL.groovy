@@ -19,7 +19,6 @@ echo "Jenkins workspace is available at - 	\$WORKSPACE")
 				'numToKeep'('5')
 				'artifactDaysToKeep'('-1')
 				'artifactNumToKeep'('-1')
-			}
 		}
 	}
 }
