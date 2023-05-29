@@ -1,4 +1,4 @@
-job("Concurrent_Job1") {
+job("Concurrent_Job_DSL") {
 	description()
 	keepDependencies(false)
 	disabled(false)
