@@ -9,15 +9,4 @@ echo "Current build is accessible at - \$BUILD_URL"
 echo "Java library is available at - \$JAVA_HOME"
 echo "Jenkins workspace is available at - \$WORKSPACE")
 	}
-	wrappers {
-		timestamps()
-	}
-	configure {
-		it / 'properties' / 'jenkins.model.BuildDiscarderProperty' {
-			strategy {
-				'daysToKeep'('-1')
-				'numToKeep'('5')
-				'artifactDaysToKeep'('-1')
-				'artifactNumToKeep'('-1')
-	}
 }
